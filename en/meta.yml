@@ -1,11 +1,9 @@
-title: scratch3-time-delay
+title: Run a script after a time delay
 hero_image: images/banner.png
-description: scratch3-time-delay description
+description: Run scripts after a time delay. 
 version: 4
 listed: false
 copyedit: false
 last_tested: "2021-03-10"
 steps:
-  - title: Introduction
-  - title: Step title
-  - title: What next?
+  - title: Run a script after a time delay
