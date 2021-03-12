@@ -1,5 +1,3 @@
-## Run a script after a time delay
-
 **Time delay conversation**: [See inside](https://scratch.mit.edu/projects/499336065/editor){:target="_blank"}
 
 <div class="scratch-preview">
