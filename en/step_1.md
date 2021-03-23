@@ -12,9 +12,15 @@ when [timer v] > [5] // change the delay
 
 This is useful for coordinating conversations or animations with multiple sprites and for organising long scripts.
 
-When you use the timer, it's a good idea to reset it when the green flag is clicked as the timer might already be runninng when you start your project.
+When you use the timer, it's a good idea to reset it when the green flag is clicked as the timer starts when a project is opened.
 
 ```blocks3
 when flag clicked
 reset timer
+```
+
+An alternative is:
+```blocks3
+when flag clicked
+wait [5] seconds // change the delay
 ```
