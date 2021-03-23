@@ -22,5 +22,5 @@ reset timer
 An alternative is:
 ```blocks3
 when flag clicked
-wait [5] // change the delay
+wait [5] seconds // change the delay
 ```
