@@ -10,7 +10,7 @@ You can make a script run a number of seconds after the green flag is clicked:
 when [timer v] > [5] // change the delay
 ```
 
-This is useful for coordinating conversations or animations with multiple sprites, and for organising long scripts.
+Isso é útil para coordenar conversas ou animações com vários atores e para organizar scripts longos.
 
 When you use the timer, it is a good idea to `reset`{:class="block3sensing"} it `when green flag clicked`{:class="block3events"}, as the timer starts when a project is opened:
 
