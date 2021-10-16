@@ -1,25 +1,25 @@
-**Time delay conversation**: [See inside](https://scratch.mit.edu/projects/499336065/editor){:target="_blank"}
+**تأخير وقت المحادثة**: [انظر الداخل](https://scratch.mit.edu/projects/499336065/editor){: target = "_ blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/499336065/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can make a script run a number of seconds after the green flag is clicked:
+يمكنك تشغيل البرنامج النصي بعد عدة ثوانٍ من النقر فوق العلم الأخضر:
 
 ```blocks3
 when [timer v] > [5] // change the delay
 ```
 
-This is useful for coordinating conversations or animations with multiple sprites, and for organising long scripts.
+هذا مفيد لتنسيق المحادثات أو الرسوم المتحركة لمجموعة متعددة من الكائنات ، ولتنظيم البرامج النصية الطويلة.
 
-When you use the timer, it is a good idea to `reset`{:class="block3sensing"} it `when green flag clicked`{:class="block3events"}, as the timer starts when a project is opened:
+عند استخدام المؤقت، انها فكرة جيدة ل `إعادة`{:class="block3sensing"} `عندما ينقر العلم الأخضر`{:class="block3events"}، كما يبدأ المؤقت عند فتح المشروع:
 
 ```blocks3
 when flag clicked
 reset timer
 ```
 
-Another way to add a delay is to use a `wait`{:class="block3control"} block:
+هناك طريقة أخرى لإضافة مدة تأخير هو استخدام `الانتظار`{:class="block3control"}:
 
 ```blocks3
 when flag clicked
