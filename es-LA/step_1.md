@@ -1,25 +1,25 @@
-**Time delay conversation**: [See inside](https://scratch.mit.edu/projects/499336065/editor){:target="_blank"}
+**Conversación con tiempo de retraso**: [Ver dentro](https://scratch.mit.edu/projects/499336065/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/499336065/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can make a script run a number of seconds after the green flag is clicked:
+Puedes hacer que un script se ejecute varios segundos después de hacer clic en la bandera verde:
 
 ```blocks3
 when [timer v] > [5] // change the delay
 ```
 
-This is useful for coordinating conversations or animations with multiple sprites, and for organising long scripts.
+Esto es útil para coordinar conversaciones o animaciones con múltiples objetos y para organizar scripts largos.
 
-When you use the timer, it is a good idea to `reset`{:class="block3sensing"} it `when green flag clicked`{:class="block3events"}, as the timer starts when a project is opened:
+Cuando usas el cronómetro, es una buena idea usar `reiniciar cronómetro`{: class = "block3sensing"} ` al presionar bandera verde`{: class = "block3events"}, ya que el temporizador comienza cuando se abre un proyecto:
 
 ```blocks3
 when flag clicked
 reset timer
 ```
 
-Another way to add a delay is to use a `wait`{:class="block3control"} block:
+Otra forma de agregar tiempo retraso es usando un bloque `esperar`{: class = "block3control"}:
 
 ```blocks3
 when flag clicked
