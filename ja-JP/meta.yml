@@ -1,11 +1,11 @@
 ---
-title: Run a script after a time delay
+title: 時間を遅らせてスクリプトを実行する
 hero_image: images/banner.png
-description: Run a script after a time delay
+description: 時間を遅らせてスクリプトを実行する
 version: 4
 listed: false
 copyedit: false
 last_tested: "2021-03-10"
 steps:
   - 
-    title: Run a script after a time delay
+    title: 時間を遅らせてスクリプトを実行する
