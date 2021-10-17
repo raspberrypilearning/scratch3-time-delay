@@ -1,25 +1,25 @@
-**Time delay conversation**: [See inside](https://scratch.mit.edu/projects/499336065/editor){:target="_blank"}
+**時間の遅れた会話**: [中を見る](https://scratch.mit.edu/projects/499336065/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/499336065/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can make a script run a number of seconds after the green flag is clicked:
+緑の旗がクリックされてから数秒後にスクリプトを実行させることができます。
 
 ```blocks3
 when [timer v] > [5] // change the delay
 ```
 
-This is useful for coordinating conversations or animations with multiple sprites, and for organising long scripts.
+これは、会話やアニメーションを複数のスプライトと調整したり、長いスクリプトを整理したりするのに役立ちます。
 
-When you use the timer, it is a good idea to `reset`{:class="block3sensing"} it `when green flag clicked`{:class="block3events"}, as the timer starts when a project is opened:
+タイマーを使う際に、`緑の旗が押されたとき`{:class="block3events"}にそれを`リセット`{:class="block3sensing"}することは、プロジェクトが開かれたときにタイマーが始まるのでよいアイデアです。
 
 ```blocks3
 when flag clicked
 reset timer
 ```
 
-Another way to add a delay is to use a `wait`{:class="block3control"} block:
+遅れを追加する別の方法は、 `待つ`{:class="block3control"}ブロックを使用することです。
 
 ```blocks3
 when flag clicked
