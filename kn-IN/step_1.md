@@ -4,22 +4,22 @@
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/499336065/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can make a script run a number of seconds after the green flag is clicked:
+ಹಸಿರು ಧ್ವಜವನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿದ ನೀವು ಕೆಲವು ಸೆಕೆಂಡುಗಳ ನಂತರ ಸ್ಕ್ರಿಪ್ಟ್ ಅನ್ನು ರನ್ ಮಾಡಬಹುದು:
 
 ```blocks3
 when [timer v] > [5] // change the delay
 ```
 
-This is useful for coordinating conversations or animations with multiple sprites, and for organising long scripts.
+ಸಂವಾದಗಳು ಅಥವಾ ಅನಿಮೇಷನ್‌ಗಳನ್ನು ಬಹು ಸ್ಪ್ರೈಟ್ ಗಳೊಂದಿಗೆ ಸಂಯೋಜಿಸಲು ಮತ್ತು ದೀರ್ಘ ಲಿಪಿಗಳನ್ನು ಸಂಘಟಿಸಲು ಇದು ಉಪಯುಕ್ತವಾಗಿದೆ.
 
-When you use the timer, it is a good idea to `reset`{:class="block3sensing"} it `when green flag clicked`{:class="block3events"}, as the timer starts when a project is opened:
+ನೀವು ಟೈಮರ್ ಬಳಸಿದಾಗ, ಪ್ರಾಜೆಕ್ಟ್ ತೆರೆದಾಗ ಸಮಯ ಪ್ರಾರಂಭವಾದಾಗ, `when green flag clicked`{:class="block3events"} ಮಾಡಿದಾಗ `reset`{:class="block3sensing"} ಮಾಡುವುದು ಉತ್ತಮ ವಿಚಾರ:
 
 ```blocks3
 when flag clicked
 reset timer
 ```
 
-Another way to add a delay is to use a `wait`{:class="block3control"} block:
+ವಿಳಂಬವನ್ನು ಸೇರಿಸಲು ಇನ್ನೊಂದು ಮಾರ್ಗವೆಂದರೆ `wait`{:class="block3control"} block ಬ್ಲಾಕ್ ಅನ್ನು ಬಳಸುವುದು:
 
 ```blocks3
 when flag clicked
