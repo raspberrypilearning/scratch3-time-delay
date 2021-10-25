@@ -1,25 +1,25 @@
-**Time delay conversation**: [See inside](https://scratch.mit.edu/projects/499336065/editor){:target="_blank"}
+**Χρονική καθυστέρηση συνομιλίας**: [Δες μέσα](https://scratch.mit.edu/projects/499336065/editor){: target = "_ blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/499336065/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can make a script run a number of seconds after the green flag is clicked:
+Μπορείς να κάνεις ένα σενάριο να εκτελείται αρκετά δευτερόλεπτα μετά το κλικ στην πράσινη σημαία:
 
 ```blocks3
 when [timer v] > [5] // change the delay
 ```
 
-This is useful for coordinating conversations or animations with multiple sprites, and for organising long scripts.
+Αυτό είναι χρήσιμο για τον συντονισμό συνομιλιών ή κινουμένων σχεδίων με πολλαπλά sprites και για την οργάνωση μεγάλων σεναρίων.
 
-When you use the timer, it is a good idea to `reset`{:class="block3sensing"} it `when green flag clicked`{:class="block3events"}, as the timer starts when a project is opened:
+Όταν χρησιμοποιείς το χρονόμετρο, είναι μια καλή ιδέα να το`μηδενίσεις`{: class = «block3sensing»} `όταν πατηθεί η πράσινη σημαία`{: class = «block3events»}, καθώς το χρονόμετρο ξεκινά όταν ανοίγεις ένα έργο:
 
 ```blocks3
 when flag clicked
 reset timer
 ```
 
-Another way to add a delay is to use a `wait`{:class="block3control"} block:
+Ένας άλλος τρόπος για να προσθέσεις καθυστέρηση είναι να χρησιμοποιήσεις το `περίμενε`{: class = "block3control"}:
 
 ```blocks3
 when flag clicked
