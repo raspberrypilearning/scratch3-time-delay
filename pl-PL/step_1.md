@@ -1,4 +1,4 @@
-**Rozmowa z opóźnieniem czasowym**: [Sprawdź](https://scratch.mit.edu/projects/499336065/editor){:target="_blank"}
+**Rozmowa z opóźnieniem czasowym**: [Zobacz do środka](https://scratch.mit.edu/projects/499336065/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/499336065/?autostart=false" frameborder="0"></iframe>
