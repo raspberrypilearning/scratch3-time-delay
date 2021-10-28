@@ -1,7 +1,7 @@
-**Temporisation de la conversation** : [Voir à l'intérieur](https://scratch.mit.edu/projects/499336065/editor){:target="_blank"}
+**Temporisation de la conversation** : [Voir à l'intérieur](https://scratch.mit.edu/projects/591172761/editor){:target="_blank"}
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/499336065/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/591172761/?autostart=false" frameborder="0"></iframe>
 </div>
 
 Tu peux exécuter un script plusieurs secondes après avoir cliqué sur le drapeau vert :
@@ -25,3 +25,4 @@ Une autre façon d'ajouter un délai consiste à utiliser un bloc `attendre`{:cl
 when flag clicked
 wait [5] seconds // changer le délai
 ```
+
