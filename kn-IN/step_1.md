@@ -1,4 +1,4 @@
-**Time delay conversation**: [See inside](https://scratch.mit.edu/projects/499336065/editor){:target="_blank"}
+**ಸಮಯ ವಿಳಂಬ ಸಂಭಾಷಣೆ**: [ಒಳಗೆ ನೋಡಿ](https://scratch.mit.edu/projects/499336065/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/499336065/?autostart=false" frameborder="0"></iframe>
