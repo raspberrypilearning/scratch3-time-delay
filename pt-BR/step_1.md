@@ -7,7 +7,7 @@
 Você pode fazer um script rodar alguns segundos depois que a bandeira verde for clicada:
 
 ```blocks3
-when [timer v] > [5] // change the delay
+when [timer v] > [5] // mude o intervalo
 ```
 
 Isso é útil para coordenar conversas ou animações com vários atores e para organizar scripts longos.
