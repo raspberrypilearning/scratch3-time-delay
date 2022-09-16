@@ -7,21 +7,8 @@
 Możesz uruchomić skrypt kilka sekund po kliknięciu zielonej flagi:
 
 ```blocks3
-when [timer v] > [5] // change the delay
-```
-
-Jest to przydatne do koordynowania rozmów lub animacji z wieloma duszkami oraz do organizowania długich skryptów.
-
-Kiedy używasz licznika, dobrze jest go `zresetować`{:class="block3sensing"} `kiedy zielona flaga zostanie kliknięta`{:class="block3events"}, ponieważ licznik uruchamia się po otwarciu projektu:
-
-```blocks3
-when flag clicked
-reset timer
-```
-
-Innym sposobem dodania opóźnienia jest użycie `czekaj`{:class="block3control"}:
-
-```blocks3
 when flag clicked
 wait [5] seconds // change the delay
 ```
+
+Add blocks underneath the `wait`{:class="block3control"} block to run after the delay. 
