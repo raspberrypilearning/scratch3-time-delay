@@ -7,21 +7,8 @@
 Você pode fazer um script rodar alguns segundos depois que a bandeira verde for clicada:
 
 ```blocks3
-when [timer v] > [5] // change the delay
-```
-
-Isso é útil para coordenar conversas ou animações com vários atores e para organizar scripts longos.
-
-Ao usar intervalos, é uma boa ideia usar `zere o cronômetro`{:class="block3sensing"} `quando a bandeira verde for clicada`{:class="block3events"}, pois o cronômetro começa quando um projeto é aberto:
-
-```blocks3
-when flag clicked
-reset timer
-```
-
-Outra maneira de adicionar um intervalo é usar um bloco `espere`{:class="block3control"}:
-
-```blocks3
 when flag clicked
 wait [5] seconds // change the delay
 ```
+
+Add blocks underneath the `wait`{:class="block3control"} block to run after the delay. 
