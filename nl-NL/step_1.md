@@ -7,21 +7,8 @@
 Je kunt een script een aantal seconden nadat op de groene vlag is geklikt starten:
 
 ```blocks3
-when [timer v] > [5] // change the delay
-```
-
-Dit is handig voor het afstemmen van gesprekken of animaties met meerdere sprites en voor het organiseren van lange scripts.
-
-Wanneer je de klok gebruikt, is het een goed idee om deze`op 0 te zetten`{:class="block3sensing"} `wanneer op de groene vlag wordt gekikt`{:class="block3events"}, zodat de klok start wanneer een project wordt geopend:
-
-```blocks3
-when flag clicked
-reset timer
-```
-
-Een andere manier om een vertraging toe te voegen is om een `wacht`{:class="block3control"} blok te gebruiken:
-
-```blocks3
 when flag clicked
 wait [5] seconds // change the delay
 ```
+
+Add blocks underneath the `wait`{:class="block3control"} block to run after the delay. 
