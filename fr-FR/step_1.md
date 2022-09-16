@@ -7,21 +7,8 @@
 Tu peux exécuter un script plusieurs secondes après avoir cliqué sur le drapeau vert :
 
 ```blocks3
-when [timer v] > [5] // change the delay
-```
-
-Ceci est utile pour coordonner des conversations ou des animations avec plusieurs sprites et pour organiser de longs scripts.
-
-Lorsque tu utilises le minuteur, c'est une bonne idée de le `réinitialiser`{:class="block3sensing"} `lorsque le drapeau vert est cliqué`{:class="block3events"}, car le minuteur démarre lorsqu'un projet est ouvert :
-
-```blocks3
-when flag clicked
-reset timer
-```
-
-Une autre façon d'ajouter un délai consiste à utiliser un bloc `attendre`{:class="block3control"} :
-
-```blocks3
 when flag clicked
 wait [5] seconds // change the delay
 ```
+
+Add blocks underneath the `wait`{:class="block3control"} block to run after the delay. 
