@@ -7,21 +7,8 @@
 緑の旗がクリックされてから数秒後にスクリプトを実行させることができます。
 
 ```blocks3
-when [timer v] > [5] // change the delay
-```
-
-これは、会話やアニメーションを複数のスプライトと調整したり、長いスクリプトを整理したりするのに役立ちます。
-
-タイマーを使う際に、`緑の旗が押されたとき`{:class="block3events"}にそれを`リセット`{:class="block3sensing"}することは、プロジェクトが開かれたときにタイマーが始まるのでよいアイデアです。
-
-```blocks3
-when flag clicked
-reset timer
-```
-
-遅れを追加する別の方法は、 `待つ`{:class="block3control"}ブロックを使用することです。
-
-```blocks3
 when flag clicked
 wait [5] seconds // change the delay
 ```
+
+Add blocks underneath the `wait`{:class="block3control"} block to run after the delay. 
