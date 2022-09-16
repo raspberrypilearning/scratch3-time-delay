@@ -7,21 +7,8 @@
 Puedes hacer que un script se ejecute varios segundos después de hacer clic en la bandera verde:
 
 ```blocks3
-when [timer v] > [5] // change the delay
-```
-
-Esto es útil para coordinar conversaciones o animaciones con múltiples objetos y para organizar scripts largos.
-
-Cuando usas el cronómetro, es una buena idea usar `reiniciar cronómetro`{: class = "block3sensing"} ` al presionar bandera verde`{: class = "block3events"}, ya que el temporizador comienza cuando se abre un proyecto:
-
-```blocks3
-when flag clicked
-reset timer
-```
-
-Otra forma de agregar tiempo retraso es usando un bloque `esperar`{: class = "block3control"}:
-
-```blocks3
 when flag clicked
 wait [5] seconds // change the delay
 ```
+
+Add blocks underneath the `wait`{:class="block3control"} block to run after the delay. 
