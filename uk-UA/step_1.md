@@ -1,14 +1,14 @@
-**Time delay conversation**: [See inside](https://scratch.mit.edu/projects/499336065/editor){:target="_blank"}
+**Розмова із затримкою часу**: [Переглянути код](https://scratch.mit.edu/projects/499336065/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/499336065/?autostart=false" frameborder="0"></iframe>
 </div>
 
-You can make a script run a number of seconds after the green flag is clicked:
+Ти можеш зробити так, щоб скрипт запускався через кілька секунд після натискання зеленого прапорця:
 
 ```blocks3
-when flag clicked
-wait [5] seconds // change the delay
+коли прапорець натиснуто
+чекати [5] сек // змінити затримку
 ```
 
-Add blocks underneath the `wait`{:class="block3control"} block to run after the delay. 
+Додай інші блоки під блоком `чекати`{:class="block3control"}, щоб вони виконувалися після затримки. 
