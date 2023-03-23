@@ -7,8 +7,8 @@
 Tu peux exécuter un script plusieurs secondes après avoir cliqué sur le drapeau vert :
 
 ```blocks3
-when flag clicked
-wait [5] seconds // change the delay
+Quand le drapeau est cliqué
+attendre [5] secondes // changer le délai
 ```
 
-Add blocks underneath the `wait`{:class="block3control"} block to run after the delay. 
+Une autre façon d'ajouter un délai consiste à utiliser un bloc `attendre`{:class="block3control"} : 
