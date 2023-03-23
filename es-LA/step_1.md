@@ -7,8 +7,8 @@
 Puedes hacer que un script se ejecute varios segundos después de hacer clic en la bandera verde:
 
 ```blocks3
-when flag clicked
-wait [5] seconds // change the delay
+al hacer clic en la bandera
+espera [timer v] > [5] segundos // cambia el tiempo de retraso
 ```
 
-Add blocks underneath the `wait`{:class="block3control"} block to run after the delay. 
+Agrega bloques debajo de un bloque `esperar`{:class="block3control"} para que se ejecute después del retraso. 
