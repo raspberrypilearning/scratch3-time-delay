@@ -7,8 +7,8 @@
 Du kan få kod att köras ett antal sekunder efter att den gröna flaggan har klickats:
 
 ```blocks3
-när flaggan klickas på
-vänta [5] sekunder // ändra fördröjningen
+when flag clicked
+wait [5] seconds // ändra fördröjningen
 ```
 
 Lägg till block under `vänta`{:class="block3control"}blocket för att köras efter fördröjningen.
