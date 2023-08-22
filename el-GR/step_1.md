@@ -11,4 +11,4 @@ when flag clicked
 wait [5] seconds // change the delay
 ```
 
-Add blocks underneath the `wait`{:class="block3control"} block to run after the delay. 
+Προσθέστε μπλοκ κάτω από το μπλοκ `περίμενε`{:class="block3control"} για εκτέλεση μετά την καθυστέρηση. 
