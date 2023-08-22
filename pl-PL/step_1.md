@@ -1,4 +1,4 @@
-**Rozmowa z opóźnieniem czasowym**: [Zobacz do środka](https://scratch.mit.edu/projects/499336065/editor){:target="_blank"}
+**Rozmowa z opóźnieniem czasowym**: [Zajrzyj do środka](https://scratch.mit.edu/projects/499336065/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/499336065/?autostart=false" frameborder="0"></iframe>
@@ -8,7 +8,7 @@ Możesz uruchomić skrypt kilka sekund po kliknięciu zielonej flagi:
 
 ```blocks3
 when flag clicked
-wait [5] seconds // change the delay
+wait [5] seconds // zmień opóźnienie
 ```
 
-Add blocks underneath the `wait`{:class="block3control"} block to run after the delay. 
+Dodaj kolejne bloki pod blokiem `czekaj`{:class="block3control"} aby wykonały się one z opóźnieniem. 
