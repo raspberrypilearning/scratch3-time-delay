@@ -11,4 +11,4 @@ when flag clicked
 wait [5] seconds // altere o intervalo
 ```
 
-Add blocks underneath the `wait`{:class="block3control"} block to run after the delay. 
+Adicione blocos abaixo do bloco `espere`{:class="block3control"} para executá-los após o atraso. 
