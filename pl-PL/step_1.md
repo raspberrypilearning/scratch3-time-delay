@@ -1,27 +1,14 @@
-**Rozmowa z opóźnieniem czasowym**: [Zobacz do środka](https://scratch.mit.edu/projects/594929840/editor){:target="_blank"}
+**Rozmowa z opóźnieniem czasowym**: [Zajrzyj do środka](https://scratch.mit.edu/projects/943153962/editor){:target="_blank"}
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/594929840/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/943153962/?autostart=false" frameborder="0"></iframe>
 </div>
 
 Możesz uruchomić skrypt kilka sekund po kliknięciu zielonej flagi:
 
 ```blocks3
-when [timer v] > [5] // zmień opóźnienie
-```
-
-Jest to przydatne do koordynowania rozmów lub animacji z wieloma duszkami oraz do organizowania długich skryptów.
-
-Kiedy używasz licznika, dobrze jest go `zresetować`{:class="block3sensing"} `kiedy zielona flaga zostanie kliknięta`{:class="block3events"}, ponieważ licznik uruchamia się po otwarciu projektu:
-
-```blocks3
-when flag clicked
-reset timer
-```
-
-Innym sposobem dodania opóźnienia jest użycie `czekaj`{:class="block3control"}:
-
-```blocks3
 when flag clicked
 wait [5] seconds // zmień opóźnienie
 ```
+
+Dodaj kolejne bloki pod blokiem `czekaj`{:class="block3control"} aby wykonały się one z opóźnieniem. 

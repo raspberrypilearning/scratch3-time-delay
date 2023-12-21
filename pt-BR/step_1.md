@@ -1,10 +1,10 @@
-**Conversa com intervalo de tempo**: [Veja um exemplo](https://scratch.mit.edu/projects/907417031/editor){:target="_blank"}
+**Conversa com intervalo de tempo**: [Ver interior](https://scratch.mit.edu/projects/943154329/editor){:target="_blank"}
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/907417031/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/943154329/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Você pode fazer um script rodar alguns segundos depois que a bandeira verde for clicada:
+Você pode fazer um script ser executado alguns segundos depois que a bandeira verde for clicada:
 
 ```blocks3
 when flag clicked
