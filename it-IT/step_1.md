@@ -1,7 +1,7 @@
-**Conversazione con pausa**: [Guarda dentro](https://scratch.mit.edu/projects/499336065/editor){:target="_blank"}
+**Conversazione con pausa**: [Guarda dentro](https://scratch.mit.edu/projects/946991148/editor){:target="_blank"}
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/499336065/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/946991148/?autostart=false" frameborder="0"></iframe>
 </div>
 
 Puoi far eseguire uno script alcuni secondi dopo aver cliccato sulla bandierina verde:
