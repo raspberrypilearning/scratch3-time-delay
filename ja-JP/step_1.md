@@ -11,4 +11,4 @@ when flag clicked
 wait [5] seconds // change the delay
 ```
 
-Add blocks underneath the `wait`{:class="block3control"} block to run after the delay. 
+遅れを追加する別の方法は、 `待つ`{:class="block3control"}ブロックを使用することです。 
